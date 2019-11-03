@@ -1,0 +1,13 @@
+h1,h2 {
+    position: center;
+    background-color: antiquewhite;
+}
+
+#generate {
+    padding-left: 10%;
+    color: brown;
+}
+
+#copy {
+    padding-left: 10%;
+}

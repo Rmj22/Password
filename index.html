@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="../Password Generator/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../Password Generator/css/bootstrap.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1>Password Generator</h1>
+    </header>
+    <h2>Generate a Password</h2>
+    <textarea
+    readonly
+      id="password"
+      placeholder="Your Secure Password"
+      aria-label="Generated Password"
+    ></textarea>
+    <button id="generate">Generate Password</button>
+    <button id="copy">
+      Copy to Clipboard
+    </button>
+    <script>
+
+    var char = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var string_length = 14;
+    var num ='0123456789';
+    var sym = '!@#$%^&*()_-+=';
+    var randomstring = '';
+    $("#generate").on("click", function(){
+    var length=parseInt(prompt("How many character would you like the password to be"))
+    if(length<8){
+      alert("Password must be atleast 8 characters")
+    }
+    for (var 1=0; i<=complexity; i++) {
+      password = password + values.charAt
+    }
+    if(length>128){
+      alert("Password must not exceed 128")
+    }
+    if(isNaN(length)){
+      alert("Password length must be a number")
+    }
+    var hasSpecialCharacters = confirm(
+    "Click OK to confirm including special characters."
+  );
+  // Variable to store boolean regarding the inclusion of numeric characters
+  var hasNumericCharacters = confirm(
+    "Click OK to confirm including numeric characters."
+  );
+  // Variable to store boolean regarding the inclusion of lowercase characters
+  var hasLowerCasedCharacters = confirm(
+    "Click OK to confirm including lowercase characters."
+  );
+  // Variable to store boolean regarding the inclusion of uppercase characters
+  var hasUpperCasedCharacters = confirm(
+    "Click OK to confirm including uppercase characters."
+  )
+  if(
+    hasSpecialCharacters=== false && 
+    hasNumericCharacters=== false &&
+    hasLowerCasedCharacters== false &&
+    hasUpperCasedCharacters== false 
+  ){
+
+    alert("Must select 1 character type")
+  }
+
+// store varibles as keys to an object
+// return the object
+    
+});
+
+</script>
+  </body>
+</html>
