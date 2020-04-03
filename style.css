@@ -1,13 +1,15 @@
 h1,h2 {
     position: center;
-    background-color: antiquewhite;
+    background-color: rgb(231, 157, 108);
+    color: black;
 }
 
 #generate {
     padding-left: 10%;
-    color: brown;
+    background-color: brown;
 }
 
 #copy {
     padding-left: 10%;
+    background-color: green;
 }
